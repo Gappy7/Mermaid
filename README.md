@@ -34,10 +34,7 @@ bar
     2022: 1478
 ```
 
----
-
-### **Line Chart (courbe)**
-
+````markdown
 ```mermaid
 line
     title Nombre de bateaux à Rotterdam par année
@@ -45,3 +42,4 @@ line
     y-axis Nombre de bateaux
     "Rotterdam": 1234, 1456, 1320, 1512, 1478
 ```
+````
