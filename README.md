@@ -23,7 +23,6 @@ flowchart TD
 ```
 
 ```mermaid
-%% Graphique en barres : Nombre de bateaux à Rotterdam par année
 bar
     title Nombre de bateaux à Rotterdam par année
     x-axis 2018, 2019, 2020, 2021, 2022
@@ -33,4 +32,16 @@ bar
     2020: 1320
     2021: 1512
     2022: 1478
+```
+
+---
+
+### **Line Chart (courbe)**
+
+```mermaid
+line
+    title Nombre de bateaux à Rotterdam par année
+    x-axis 2018, 2019, 2020, 2021, 2022
+    y-axis Nombre de bateaux
+    "Rotterdam": 1234, 1456, 1320, 1512, 1478
 ```
