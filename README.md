@@ -1,7 +1,7 @@
 ```mermaid
 flowchart TD
     A[Début] --> B[Question en langage naturel reçue]
-    B --> C[Analyse NLP (Compréhension du langage)]
+    B --> C[Analyse NLP : compréhension du langage]
     C --> D[Génération de la requête SQL]
     D --> E[Validation de la requête SQL]
     E --> F[Exécution sur base Oracle]
