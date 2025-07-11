@@ -1,12 +1,10 @@
 ```mermaid
-flowchart TD
-    A[Début] --> B[Question en langage naturel reçue]
-    B --> C[Analyse NLP : compréhension du langage]
-    C --> D[Génération de la requête SQL]
-    D --> E[Validation de la requête SQL]
-    E --> F[Exécution sur base Oracle]
-    F --> G[Résultat brut de la base de données]
-    G --> H[Formatage en réponse lisible]
-    H --> I[Réponse claire pour l'utilisateur]
-    I --> J[Fin]
+flowchart LR
+    A[🧑‍💻 Question de l'utilisateur] --> B[🧠 LLM : compréhension + génération SQL]
+    B --> C[📄 Requête SQL]
+    C --> D[🗄️ Interrogation base Oracle]
+
+    D --> E[📄 Résultat brut]
+    E --> F[🧠 LLM : reformulation en langage naturel]
+    F --> G[✅ Réponse claire à l'utilisateur]
 ```
